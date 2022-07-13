@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
@@ -18,12 +19,13 @@ public class MainMenu : MonoBehaviour
 
     public void OnClickStart()
     {
-        Debug.Log("게임시작");
+            SceneManager.LoadScene("Escaperoom");
     }
 
     public void OnClickAbout()
     {
         Debug.Log("게임설명");
+        
     }
 
     public void OnClickQuit()

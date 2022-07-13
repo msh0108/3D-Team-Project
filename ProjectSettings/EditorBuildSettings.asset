@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Gamestart.unity
+    guid: 11e501c612e99f84bb003bc0b9583790
+  - enabled: 1
+    path: Assets/Scenes/Escaperoom.unity
+    guid: 04d8b11ce9221334ebf875196a8b7eb0
   m_configObjects: {}
